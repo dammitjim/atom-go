@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-go",
-        "command": "atom-go:toggle"
+        "label": "Load go environment",
+        "command": "atom-go:environment"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "atom-go",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-go:toggle"
+              "label": "Load Environment",
+              "command": "atom-go:environment"
             }
           ]
         }
