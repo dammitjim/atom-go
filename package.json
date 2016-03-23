@@ -9,7 +9,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
   "devDependencies": {
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
