@@ -4,9 +4,10 @@ import "fmt"
 
 func main() {
 	fmt.Println("This is only a test")
-	fermert.Perntlern("This is only a build errer")
-	asd
-	if hurr {
-		durr
+	test := "Hurpa derp" + " durr"
+	if test != "" {
+		fmt.Println(test)
+	} else {
+		fmt.Println("Nerd")
 	}
 }
