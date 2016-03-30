@@ -1,5 +1,22 @@
-# atom-go package
+# atom-go
 
-A short description of your package.
+Golang language plugin for atom, very much a work in progress.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Aims to be an all-in-one package.
+
+## TODO list
+
+* Sort out built executables
+* Golint
+* Govet
+* Gocode integration
+* Config page
+* Project manager integration
+* Recognize GB projects and set pathing accordingly
+* Go test integration
+
+## Things to sort out
+
+* Performance
+* Proper error logging, what needs notifications?
+* Windows support, maybe.
